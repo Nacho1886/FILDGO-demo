@@ -2,13 +2,14 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { NotfoundComponent } from './demo/components/notfound/notfound.component';
 import { AppLayoutComponent } from "./layout/app.layout.component";
+import { FildgoComponent } from './fildgo/fildgo.component';
 
 @NgModule({
     imports: [
         RouterModule.forRoot([
-            /* {
-
-            }, */
+            {
+                path: 'fildgo', component: FildgoComponent
+            },
             {
                 path: 'layout', component: AppLayoutComponent,
                 children: [

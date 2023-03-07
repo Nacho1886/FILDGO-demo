@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FildgoComponent } from './fildgo.component';
+import { AppLayoutModule } from '../layout/app.layout.module';
 
 
 
@@ -9,7 +10,8 @@ import { FildgoComponent } from './fildgo.component';
     FildgoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppLayoutModule
   ]
 })
 export class FildgoModule { }
