@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FildgoComponent } from './fildgo.component';
-import { AppLayoutModule } from '../layout/app.layout.module';
+import { RouterModule } from '@angular/router';
+import { FildgoRoutingModule } from './fildgo-routing.module';
+import { TableModule } from 'primeng/table';
 
 
 
 @NgModule({
-  declarations: [
-    FildgoComponent
-  ],
   imports: [
     CommonModule,
-    AppLayoutModule
+    RouterModule,
+    FildgoRoutingModule,
+    TableModule
   ]
 })
 export class FildgoModule { }

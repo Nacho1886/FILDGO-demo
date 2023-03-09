@@ -42,7 +42,6 @@ import { AppLayoutComponent } from './app.layout.component';
         AppConfigModule,
     ],
     exports: [
-        AppLayoutComponent,
         AppMenuitemComponent,
         AppTopBarComponent,
         AppFooterComponent,
