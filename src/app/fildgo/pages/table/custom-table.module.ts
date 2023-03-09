@@ -16,6 +16,9 @@ import { RatingModule } from 'primeng/rating';
 
 import { CustomTableComponent } from './custom-table.component';
 import { CustomTableRoutingModule } from './custom-table-routing.module';
+import { DividerModule } from 'primeng/divider';
+import { PanelModule } from 'primeng/panel';
+import { SplitterModule } from 'primeng/splitter';
 
 @NgModule({
 	imports: [
@@ -32,7 +35,10 @@ import { CustomTableRoutingModule } from './custom-table-routing.module';
 		DropdownModule,
 		ProgressBarModule,
 		ToastModule,
-		CustomTableRoutingModule
+		CustomTableRoutingModule,
+		DividerModule,
+		SplitterModule,
+		PanelModule
 	],
 	declarations: [CustomTableComponent],
 	exports: [CustomTableComponent]

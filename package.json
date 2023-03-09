@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "startjs": "json-server --watch src/assets/fildgo/data/db.json",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -20,7 +21,9 @@
     "@angular/platform-browser": "^15.1.0",
     "@angular/platform-browser-dynamic": "^15.1.0",
     "@angular/router": "^15.1.0",
+    "@auth0/angular-jwt": "^5.1.2",
     "chart.js": "^3.3.2",
+    "ngx-webstorage": "^11.1.1",
     "primeflex": "^3.2.1",
     "primeicons": "6.0.1",
     "primeng": "15.1.1",

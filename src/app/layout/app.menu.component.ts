@@ -17,6 +17,24 @@ export class AppMenuComponent implements OnInit {
             {
                 label: 'Home',
                 items: [
+                    { label: 'Productes', icon: 'pi pi-fw pi-list', routerLink: ['/'] }
+                ]
+            },
+            {
+                label: 'Admin',
+                items: [
+                    { label: 'Modifica', icon: 'pi pi-fw pi-check-square', routerLink: ['/crud'] }
+                ]
+            },
+            {
+                label: 'Auth',
+                items: [
+                    { label: 'Accedeix', icon: 'pi pi-fw pi-user', routerLink: ['/auth/access'] }
+                ]
+            },
+            /* {
+                label: 'Home',
+                items: [
                     { label: 'Dashboard', icon: 'pi pi-fw pi-home', routerLink: ['/'] }
                 ]
             },
@@ -159,7 +177,7 @@ export class AppMenuComponent implements OnInit {
                         label: 'View Source', icon: 'pi pi-fw pi-search', url: ['https://github.com/primefaces/sakai-ng'], target: '_blank'
                     }
                 ]
-            }
+            } */
         ];
     }
 }

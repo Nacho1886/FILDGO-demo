@@ -1,0 +1,102 @@
+<div class="col-12">
+    <div class="card">
+        <h5>Products</h5>
+        <p-toast></p-toast>
+        <p-table
+            [value]="products"
+            dataKey="name"
+            [expandedRowKeys]="expandedRows"
+            responsiveLayout="scroll"
+        >
+            <ng-template pTemplate="caption">
+                <button
+                    pButton
+                    icon="pi pi-fw {{ isExpanded ? 'pi-minus' : 'pi-plus' }}"
+                    label="{{ isExpanded ? 'Collapse All' : 'Expand All' }}"
+                    (click)="expandAll()"
+                ></button>
+                <div class="flex table-header"></div>
+            </ng-template>
+            <ng-template pTemplate="header">
+                <tr>
+                    <th style="width: 3rem"></th>
+                    <th pSortableColumn="name">
+                        Nom <p-sortIcon field="name"></p-sortIcon>
+                    </th>
+                    <th>Imatge</th>
+                    <th pSortableColumn="place">
+                        Lloc <p-sortIcon field="place"></p-sortIcon>
+                    </th>
+                    <th pSortableColumn="start_seasson">
+                        Inici de temporada
+                        <p-sortIcon field="start_seasson"> </p-sortIcon>
+                    </th>
+                    <th pSortableColumn="finish_seasson">
+                        Final de temporada
+                        <p-sortIcon field="finish_seasson"> </p-sortIcon>
+                    </th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-product let-expanded="expanded">
+                <tr>
+                    <td>
+                        <button
+                            type="button"
+                            pButton
+                            pRipple
+                            [pRowToggler]="product"
+                            class="p-button-text p-button-rounded p-button-plain"
+                            [icon]="
+                                expanded
+                                    ? 'pi pi-chevron-down'
+                                    : 'pi pi-chevron-right'
+                            "
+                        ></button>
+                    </td>
+                    <td style="min-width: 12rem">{{ product.name }}</td>
+                    <td>
+                        <img
+                            [src]="'assets/fildgo/img/' + product.id + '.webp'"
+                            [alt]="product.name"
+                            width="100"
+                            class="shadow-4"
+                        />
+                    </td>
+                    <td style="min-width: 10rem">{{ product.place }}</td>
+                    <td style="min-width: 8rem">{{ product.start_seasson }}</td>
+                    <td style="min-width: 8rem">
+                        {{ product.finish_seasson }}
+                    </td>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="rowexpansion" let-product>
+                <tr>
+                    <td colspan="7">
+                        <div class="p-3">
+                            <p-table responsiveLayout="scroll">
+                                <ng-template pTemplate="header">
+                                    <tr>
+                                        <th class="text-center">
+                                            <h5>Descripció del producte</h5>
+											<hr>
+											{{ product.name_description}}
+                                        </th>
+                                        <th class="text-center">
+                                            <h5>Descripció del lloc</h5>
+											<hr>
+											{{ product.place_description}}
+                                        </th>
+                                    </tr>
+                                </ng-template>
+                                <!-- <ng-template pTemplate="body">
+                                    <tr>
+                                    </tr>
+                                </ng-template> -->
+                            </p-table>
+                        </div>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
