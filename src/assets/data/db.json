@@ -4,154 +4,54 @@
       "id": "a@a.es",
       "name": "a",
       "lastname": "a",
-      "password": "Hola12",
-      "offers": false
+      "password": "Hola12"
     }
   ],
-  "starshipsImage": [
-    {
-      "id": 2,
-      "url": "https://static.wixstatic.com/media/839712_cac07ad9620149e4b27bcf0506c1211e.jpg"
-    },
-    {
-      "id": 3,
-      "url": "https://c-3d.niceshops.com/upload/image/product/large/default/12163_a7a3d22d.jpg"
-    },
+  "products": [
     {
       "id": 5,
-      "url": "https://starwars-visualguide.com/assets/img/starships/5.jpg"
+      "name": "Maduixes del Maresme",
+      "name_description": "La maduixa és una fruita que demostra que sovint la grandesa s’amaga sota la simplicitat. Res més sofisticat, dolç i sexy que un bon plat de maduixes en el seu punt òptim de maduració, crescudes al sol, i acompanyades de qualsevol ingredient. Les del Maresme són petites i molt vermelles, funcionen amb altres fruites, amb xocolata, amb menta, amb gelat, amb nata, amb suc… Son tot un món, econòmic, nutritiu i baix en calories, per gaudir dels plaers de la bona taula!",
+      "place": "Sant Iscle de Vallalta, al Maresme",
+      "place_description": "Ubicades al Parc Natural de Montnegre i Corredor, Sant Iscle i Sant Cebrià de Vallalta són dues localitats ideals per gaudir de bones maduixes i de nombroses rutes de senderisme. Una bona manera d’endinsar-nos en els seus paisatges és pujar al Turó de la Font del Llorà, abans de visitar l’església romànica de Sant Iscle o el particular paratge de les Dones d’Aigua, que sembla l’escenari d’un conte de fades. No oblideu apropar-vos a Sant Cebrià de Vallalta i visitar Can Coris, una majestuosa masia, i recordeu que si la visita té lloc la primera setmana de maig us trobareu la Diada de la Maduixa a totes dues localitats.",
+      "start_seasson": "març",
+      "finish_seasson": "juliol"
+    },
+    {
+      "id": 6,
+      "name": "Pèsol del Maresme",
+      "name_description": "La “perla verda” que molts creuen verdura però és en realitat llegum és típica del Maresme, molt habitual als horts de Sant Andreu de Llavaneres, on ha esdevingut un senyal d’identitat. El seu gust dolç i la seva forta personalitat fan de l’anomenat Pèsol Garrofal o Pèsol de Llavaneres un ingredient típic de nombroses receptes de la zona, amb una temporada malauradament curta: només el tenim durant els mesos de març i abril.",
+      "place": "Óbbio, a l’Eixample",
+      "place_description": "Els fans del pèsol no tenen més remei que adquirir-lo congelat durant gairebé tot l’any, però quan està de temporada no hi ha plaer més gran que comprar-lo fresc i esgranar-lo a casa abans de preparar des d’una recepta sofisticada o simplement saltejar-lo amb pernil. Al supermercat especialitzat en productes ecològics Óbbio, un espai de 700 metres quadrats amb zona de degustació, hi trobareu els millors pèsols del Maresme quan arriba la temporada, a més de cosmètica, suplements nutricionals, productes sense gluten, una llibreria especialitzada i nombrosos cursos i tallers sobre alimentació saludable.",
+      "start_seasson": "març",
+      "finish_seasson": "maig"
+    },
+    {
+      "id": 7,
+      "name": "Espàrrec de Gavà",
+      "name_description": "De temporada curta, versàtil i deliciós, l’espàrrec de Gavà arriba any rere any per protagonitzar nombroses receptes tant a Gavà com a les localitats dels voltants, també a Barcelona. És un espàrrec blanc, allargat i de textura fibrosa, que té un punt amarg i una  bona consistència. És un símbol d’aquesta localitat del Baix Llobregat, que celebra cada any amb tota mena d’honors la seva emblemàtica Fira de l’Espàrrec.",
+      "place": "Mercat de la Terra, al Poble-Sec",
+      "place_description": "Si encara no coneixeu el Mercat de la Terra, que té lloc cada dissabte al Parc de les Tres Xemeneies del Poble-Sec, sempre és un bon moment per anar-hi amb la cistella buida disposats a omplir-la amb la millor fruita i verdura de temporada que podreu comprar directament als productors. La filosofia d’aquest espai on podeu trobar fruita, verdura i hortalisses, però també formatges, coques, embotits i pans, és oferir un producte bo, net, just i local. Tradicionalment el Mercat de la Terra ha dedicat fins I tot una jornada a l’espàrrec amb un taller a l’espai del mercat i un plat especial al restaurant Rasoterra.",
+      "start_seasson": "març",
+      "finish_seasson": "juny"
+    },
+    {
+      "id": 8,
+      "name": "Gamba de Palamós",
+      "name_description": "Si hi han un producte característic de la costa de Palamós són les seves gambes, tan populars arreu de Catalunya. Es pesquen mitjançant la tècnica d’arrossegament i, malgrat que n’hi ha durant tot l’any, a l’estiu és quan les podem trobar més grans I saboroses. Tenen un color vermell intens, i es pesquen entre el cap de Begur i la riera de Ridaura (Platja d’Aro), el radi d’acció de la sempre activa Confraria de Pescadors de Palamós.",
+      "place": "La Malcontenta, a Palamós",
+      "place_description": "El menjador elegant i confortable de La Malcontenta, restaurant ubicat a l’hotel amb el mateix nom, ofereix una cuina basada en els millors productes de temporada i proximitat. El seu receptari està arrelat en la tradició empordanesa, on el mar i l’interior sempre estan presents, amb una pinzellada avantguardista que ha valgut a l’establiment el reconeixement de la Guia Michelin. Aquí hi trobem gambes de Palamós durant tot l’any, a la planxa amb sal Maldon, i una àmplia oferta de peixos de llotja que van des de la tonyina al bacallà confitat.",
+      "start_seasson": "març",
+      "finish_seasson": "desembre"
     },
     {
       "id": 9,
-      "url": "https://starwars-visualguide.com/assets/img/starships/9.jpg"
-    },
-    {
-      "id": 10,
-      "url": "https://starwars-visualguide.com/assets/img/starships/10.jpg"
-    },
-    {
-      "id": 11,
-      "url": "https://starwars-visualguide.com/assets/img/starships/11.jpg"
-    },
-    {
-      "id": 12,
-      "url": "https://starwars-visualguide.com/assets/img/starships/12.jpg"
-    },
-    {
-      "id": 13,
-      "url": "https://starwars-visualguide.com/assets/img/starships/13.jpg"
-    },
-    {
-      "id": 15,
-      "url": "https://starwars-visualguide.com/assets/img/starships/15.jpg"
-    },
-    {
-      "id": 17,
-      "url": "https://4.bp.blogspot.com/-aDB79v_b9w4/V7C8wfnNE7I/AAAAAAAAKyc/IKA6VrxOlfYq0ns2KVhTWBu_60_ihb6bACLcB/s1600/Rebel_transport_box_art.jpg"
-    },
-    {
-      "id": 21,
-      "url": "https://starwars-visualguide.com/assets/img/starships/21.jpg"
-    },
-    {
-      "id": 22,
-      "url": "https://starwars-visualguide.com/assets/img/starships/22.jpg"
-    },
-    {
-      "id": 23,
-      "url": "https://starwars-visualguide.com/assets/img/starships/23.jpg"
-    },
-    {
-      "id": 27,
-      "url": "https://starwars-visualguide.com/assets/img/starships/27.jpg"
-    },
-    {
-      "id": 28,
-      "url": "https://starwars-visualguide.com/assets/img/starships/28.jpg"
-    },
-    {
-      "id": 29,
-      "url": "https://starwars-visualguide.com/assets/img/starships/29.jpg"
-    },
-    {
-      "id": 31,
-      "url": "https://starwars-visualguide.com/assets/img/starships/31.jpg"
-    },
-    {
-      "id": 32,
-      "url": "https://static.wikia.nocookie.net/star-wars-canon/images/7/7f/Procurer-SOR.png"
-    },
-    {
-      "id": 39,
-      "url": "https://starwars-visualguide.com/assets/img/starships/39.jpg"
-    },
-    {
-      "id": 40,
-      "url": "https://starwars-visualguide.com/assets/img/starships/40.jpg"
-    },
-    {
-      "id": 41,
-      "url": "https://starwars-visualguide.com/assets/img/starships/41.jpg"
-    },
-    {
-      "id": 43,
-      "url": "https://starwars-visualguide.com/assets/img/starships/43.jpg"
-    },
-    {
-      "id": 47,
-      "url": "https://starwars-visualguide.com/assets/img/starships/47.jpg"
-    },
-    {
-      "id": 48,
-      "url": "https://starwars-visualguide.com/assets/img/starships/48.jpg"
-    },
-    {
-      "id": 49,
-      "url": "https://i.pinimg.com/originals/2b/48/37/2b483743a84256809a2db04523bdc7ca.jpg"
-    },
-    {
-      "id": 52,
-      "url": "http://images2.wikia.nocookie.net/__cb20080721224322/starwars/images/e/ec/Venator_clonewars.jpg"
-    },
-    {
-      "id": 58,
-      "url": "https://static.wikia.nocookie.net/starwars/images/1/10/CountDookusSolarSailer-WotF.png"
-    },
-    {
-      "id": 59,
-      "url": "https://swrpggm.com/wp-content/uploads/2021/02/Providence_FE.png"
-    },
-    {
-      "id": 61,
-      "url": "https://cdnb.artstation.com/p/assets/images/images/011/213/673/large/tyler-harris-vadertransport.jpg"
-    },
-    {
-      "id": 63,
-      "url": "https://static.wikia.nocookie.net/starwars/images/e/ec/Venator_clonewars.jpg"
-    },
-    {
-      "id": 64,
-      "url": "http://4.bp.blogspot.com/-ng4SlSfCjfw/TcbEYT5uTgI/AAAAAAAANM4/ePt-wX7UfRo/s400/Star%2BSkiff%2B2c%25C3%25B3pia.jpg"
-    },
-    {
-      "id": 65,
-      "url": "https://preview.redd.it/o4615hidk8j11.png?width=960&crop=smart&auto=webp&s=9d33fd61ea36cff2f0b2277c2bba1429ae3ad119"
-    },
-    {
-      "id": 66,
-      "url": "https://static.wikia.nocookie.net/esstarwars/images/3/32/Starfigher.jpg"
-    },
-    {
-      "id": 68,
-      "url": "https://swrpggm.com/wp-content/uploads/2021/02/Munificent_FE.png"
-    },
-    {
-      "id": 74,
-      "url": "https://i.pinimg.com/originals/2d/8d/ae/2d8dae9a5e583ed18551df80495f139c.jpg"
-    },
-    {
-      "id": 75,
-      "url": "https://i.ytimg.com/vi/Ur6kOgo0y7g/maxresdefault.jpg"
+      "name": "Bruixa",
+      "name_description": "Baix en greixos i calories, la bruixa és un peix especialment melós, gràcies, en bona part, a la gelatina que té als costats. És una de les protagonistes de la Llotja de Vilanova i la Geltrú, un peix molt present en bona part dels restaurants d’aquesta localitat costanera. Lleugera, nutritiva i baixa en calories, la bruixa pot cuinar-se de mil maneres: a la planxa, al forn, al vapor… i combina molt bé amb una guarnició de verdures de temporada.",
+      "place": "Peixateria Ribera, al Mercat del Ninot",
+      "place_description": "És la quarta generació d’una peixateria que des de fa dècades porta diàriament a Barcelona el millor peix fresc de la llotja de Vilanova. A Peixateria Ribera, al Mercat del Ninot, tenen viver propi i, al mercat, disposen també d’una barra de degustació on gaudir d’un bon plat de peix fresquíssim acabat de cuinar. Aquí no només us portaran el millor peix del dia, sinó que també us aconsellaran i orientaran sobre com cuinar-lo i us donaran tot tipus d’idees, fruit del saber fer d’una família de peixaters que es dedica al negoci des del segle XIX. Disposen també de servei de catering.",
+      "start_seasson": "març",
+      "finish_seasson": "abril"
     }
   ]
 }
