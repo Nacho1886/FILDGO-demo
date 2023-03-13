@@ -29,7 +29,7 @@ export class AppMenuComponent implements OnInit {
             {
                 label: 'Auth',
                 items: [
-                    { label: 'Accedeix', icon: 'pi pi-fw pi-user', routerLink: ['/auth/access'] }
+                    { label: 'Accedeix', icon: 'pi pi-fw pi-user', routerLink: ['/auth/login'] }
                 ]
             },
             /* {
